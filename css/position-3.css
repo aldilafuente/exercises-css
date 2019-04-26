@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#parent {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background-color: red;
+}
+
+#child1, #child2, #child3, #child4 {
+  position: absolute;
+}
+
+#child1, #child4 {
+  height: 600px;
+  width: 100px;
+}
+
+#child2, #child3 {
+  height: 100px;
+  width: 600px;
+}
+
+#child1 {
+  background-color: green; 
+}
+
+#child2 {
+  background-color: pink;
+}
+
+#child3 {
+  background-color: blue;
+  bottom: 0;
+}
+
+#child4 {
+  background-color: orange;
+  right: 0;
+}

@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.ej2-main {
+  display: inline-block;
+  background-color: gray;
+  width: 90%;
+  height: 300px;
+  font-size: 0;
+}
+
+.container {
+  display: inline-block;
+  width: 30%;
+  height: 300px;
+  margin-right: 40px;
+  background-color: green;
+}
+
+.container:first-of-type {
+  margin-right: 38px;
+  background-color: green;
+}
+
+.container:last-of-type {
+  margin: 0;
+  background-color: green;
+}

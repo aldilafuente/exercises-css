@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: red;
+}
+
+.blue, .green {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background-color: green;
+  right: 0;
+  bottom: 0;
+}
